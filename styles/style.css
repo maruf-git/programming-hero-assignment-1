@@ -230,7 +230,7 @@ header {
 
 /* inspiration section */
 #inspiration-section {
-    margin-bottom:151px;
+    margin-bottom: 151px;
 }
 
 .inspiration-contents {}
@@ -258,7 +258,7 @@ header {
 }
 
 .iframe-container {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -266,5 +266,94 @@ header {
 .iframe-container iframe {
     width: 1076px;
     height: 550px;
-    padding:32px;
+    padding: 32px;
+}
+
+/* current target styles */
+#current-target-section {
+    margin-bottom: 111px;
+}
+
+#current-target-title-container {}
+
+/* will later use for shared styles */
+.section-title-container {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.section-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.section-title-des {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.current-targets-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.current-target {
+    padding: 40px;
+}
+
+.current-target-logo-container {
+    margin-bottom: 24px;
+}
+
+.html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+
+.current-target p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+/* later will use for shared styles */
+.load-more-container {}
+
+.load-more-container a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
 }

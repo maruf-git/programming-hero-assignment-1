@@ -102,11 +102,11 @@ header {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-   
+
 }
 
 .contact-btn-container {
-    margin:44px 0;
+    margin: 44px 0;
 }
 
 #contact-btn {
@@ -122,3 +122,37 @@ header {
 }
 
 /* header styles end here */
+
+
+/* why web section styles start here */
+#why-web-section {}
+
+.why-web-contents {}
+
+.why-web-title-container {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.why-web-title-container h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.why-web-title-container p {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+
+/* why web section styles end here */

@@ -177,7 +177,7 @@ header {
 #why-web-section {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin-bottom: 88px;
+    margin-bottom: 168px;
 }
 
 .why-web-contents {}
@@ -207,8 +207,8 @@ header {
 .why-web-reason {
     display: flex;
     align-items: center;
-    margin-bottom:32px;
-    padding:48px 0;
+    margin-bottom: 32px;
+    padding: 48px 0;
 }
 
 .reason-left-container-1 {
@@ -216,14 +216,55 @@ header {
 
 }
 
-.reason-right-container-1{}
+.reason-right-container-1 {}
 
-.reason-left-container-2{
-    margin-right:49px;
+.reason-left-container-2 {
+    margin-right: 49px;
 }
-.reason-right-container-2{}
 
-.reason-left-container-3{}
-.reason-right-container-3{}
+.reason-right-container-2 {}
+
+.reason-left-container-3 {}
+
+.reason-right-container-3 {}
 
 /* inspiration section */
+#inspiration-section {
+    margin-bottom:151px;
+}
+
+.inspiration-contents {}
+
+.inspiration-title-contents {}
+
+.inspiration-title-contents h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.inspiration-title-contents p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.iframe-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframe-container iframe {
+    width: 1076px;
+    height: 550px;
+    padding:32px;
+}

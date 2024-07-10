@@ -11,7 +11,6 @@
     scroll-behavior: smooth;
 }
 
-/* universal styles end here*/
 
 
 /* shared styles start here*/
@@ -24,11 +23,9 @@
     border-radius: 8px;
     opacity: 0.8;
     padding: 17px 24px 17px 24px;
-    background-color: white;
+    text-decoration:none;
 }
 
-
-/* shared styles end here*/
 .first-width {
     width: 85vw;
     margin: 0 auto;

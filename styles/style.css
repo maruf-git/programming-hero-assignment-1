@@ -58,6 +58,10 @@
     line-height: 26px;
     margin-bottom: 44px;
 }
+.bg-white{
+    background-color: rgb(255,255,255);
+    border-radius:16px;
+}
 
 /* header styles */
 header {
@@ -200,8 +204,6 @@ header {
     align-items: center;
     margin-bottom: 32px;
     padding: 48px;
-    background-color: rgb(255,255,255);
-    border-radius: 16px;
 }
 
 .reason-left-container-1 {

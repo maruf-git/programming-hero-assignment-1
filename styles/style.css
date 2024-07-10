@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Azeret Mono", monospace; */
 
-/* universal styles start here*/
+/* universal styles*/
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@
 
 
 
-/* shared styles start here*/
+/* shared styles*/
 .btn {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -29,25 +29,16 @@
 .first-width {
     width: 85vw;
     margin: 0 auto;
-    /* border: 2px solid red; */
-
-    /* margin: 0px 150px; */
 }
 
 .second-width {
     width: 75vw;
     margin: 0 auto;
-    /* border: 2px solid green; */
-
-    /* margin: 0px 21px; */
 }
 
 .third-width {
     width: 63vw;
     margin: 0 auto;
-    /* border: 2px solid blue; */
-
-    /* margin: 0px 294px; */
 }
 
 .reason-title {
@@ -68,7 +59,7 @@
     margin-bottom: 44px;
 }
 
-/* header styles start here */
+/* header styles */
 header {
     margin-bottom: 74px;
 }
@@ -138,10 +129,10 @@ header {
 
 }
 
-/* header styles end here */
 
 
-/* why web section styles start here */
+
+/* why web section styles  */
 #why-web-section {}
 
 .why-web-contents {}
@@ -172,10 +163,6 @@ header {
     line-height: 26px;
 }
 
-
-
-
-/* why web section styles end here */
 #why-web-section {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -213,12 +200,12 @@ header {
     align-items: center;
     margin-bottom: 32px;
     padding: 48px;
-    background-color: white;
+    background-color: rgb(255,255,255);
+    border-radius: 16px;
 }
 
 .reason-left-container-1 {
     margin-right: 148px;
-
 }
 
 .reason-right-container-1 {}
@@ -233,7 +220,7 @@ header {
 
 .reason-right-container-3 {}
 
-/* inspiration section */
+/* inspiration section styles*/
 #inspiration-section {
     margin-bottom: 151px;
 }
@@ -258,13 +245,11 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* margin-bottom: 48px; */
     text-align: center;
 }
 
 .iframe-container {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -275,6 +260,7 @@ header {
     padding: 32px;
     border-radius: 56px;
 }
+
 /* current target styles */
 #current-target-section {
     margin-bottom: 111px;
@@ -282,7 +268,6 @@ header {
 
 #current-target-title-container {}
 
-/* will later use for shared styles */
 .section-title-container {
     margin-bottom: 48px;
     text-align: center;
@@ -355,7 +340,6 @@ header {
     margin-bottom: 24px;
 }
 
-/* later will use for shared styles */
 .load-more-container {}
 
 .load-more-container a {
@@ -379,6 +363,7 @@ header {
     background-blend-mode: overlay;
     background-position: center;
     margin-bottom: 80px;
+    background-repeat: no-repeat;
 }
 
 #support-section h1 {

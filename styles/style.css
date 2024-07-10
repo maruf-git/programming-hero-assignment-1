@@ -29,7 +29,7 @@
 .first-width {
     width: 85vw;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     /* margin: 0px 150px; */
 }
@@ -37,7 +37,7 @@
 .second-width {
     width: 75vw;
     margin: 0 auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 
     /* margin: 0px 21px; */
 }
@@ -45,7 +45,7 @@
 .third-width {
     width: 63vw;
     margin: 0 auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
     /* margin: 0px 294px; */
 }

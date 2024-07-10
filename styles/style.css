@@ -102,8 +102,8 @@ header {
 
 .person-container {
     margin-bottom: 32px;
+    padding-top: 24px;
 }
-
 .hero-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;

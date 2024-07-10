@@ -119,6 +119,7 @@ header {
     font-size: 16px;
     font-weight: 400;
     padding: 0 50px;
+    line-height: 26px;
 }
 
 .contact-btn-container {
@@ -444,13 +445,13 @@ footer {
     padding: 32px;
 }
 
-.footer-section {
+#footer-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-section h5 {
+#footer-section h5 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;

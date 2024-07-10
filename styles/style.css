@@ -230,6 +230,7 @@ header {
 .inspiration-title-contents {
     padding: 0 5px;
     margin-bottom: 32px;
+    padding: 0px 8px;
 }
 .inspiration-title-contents h1 {
     color: rgb(13, 19, 33);
